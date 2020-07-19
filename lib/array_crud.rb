@@ -27,7 +27,7 @@ end
 
 def remove_element_from_start_of_array(array)
   my_array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  wow = my_array.unshift
+  wow = my_array.shift
   p my_array
   p wow
 end
