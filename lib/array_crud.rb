@@ -13,15 +13,23 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  my_array = ["wow",]
+  my_array = ["wow", "I", "am", "really", "learning" "arrays!"]
+  my_array.unshift("wow")
+  p my_array
 end
 
 def remove_element_from_end_of_array(array)
-  
+  my_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  wow = my_array.pop
+  p my_array
+  p array
 end
 
 def remove_element_from_start_of_array(array)
-  
+  my_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  wow = my_array.unshift
+  p my_array
+  p wow
 end
 
 def retrieve_element_from_index(array, index_number)
