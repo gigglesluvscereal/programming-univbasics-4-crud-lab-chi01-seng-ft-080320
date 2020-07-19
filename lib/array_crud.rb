@@ -1,5 +1,5 @@
 def create_an_empty_array
-  my_array []
+  my_array = []
 end
 
 def create_an_array
@@ -49,5 +49,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   my_array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  my_array[4] = "totally!"
+  my_array[4] = "totally"
 end
